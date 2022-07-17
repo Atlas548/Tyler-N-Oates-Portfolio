@@ -1,0 +1,138 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+header {
+    padding: 45px;
+    background-color: lightslategray;
+}
+
+header h1 {
+    position: absolute;
+    top: 1%;
+    left: 0%;
+    font-size: 40px;
+    background-color: aquamarine;
+    color: lightslategray;
+    float: left;
+    margin: auto;
+}
+
+header ul li {
+    font-size: 20px;
+    justify-content: space-between;
+    list-style-type: none;
+    float: right;
+    padding: 5px;
+}
+
+a:link {
+    color: aqua;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: aliceblue;
+}
+
+a:active {
+    color: black;
+}
+
+.cover-photo {
+    height: auto;
+    margin-bottom: 5%;
+    position: relative;
+    display: inline-block;
+}
+
+.main-photo {
+    width: 100%;
+    border: 3px black solid;
+}
+
+.link {
+    border: 3px black solid;
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 40;
+    right: 0;
+    text-align: center;
+    top: 93%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: rgb(229, 227, 241);
+    width: 55%;
+}
+
+article {
+    margin-bottom: 120px;
+    display: inline-block;
+
+}
+
+article h2 {
+    padding: 30px;
+    border-right: 3px black solid;
+    border-bottom: 4px aqua solid;
+    float: left;
+}
+
+article p {
+    background-color: lightslategray;
+    color: aqua;
+    border: 3px black solid;
+    width: 80%;
+    float: right;
+}
+
+main h2 {
+    padding: 30px;
+    border-right: 3px black solid;
+    border-bottom: 3px aqua solid;
+    float: left;
+}
+
+.projects {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.projects li {
+    width: 200px;
+    background-color: lightslategray;
+    border: 8px black solid;
+    padding: 30px;
+    margin: 20px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+    article p {
+        width: 65%;
+    }
+    .projects li {
+        margin: 5px;
+        display: block;
+        float: right;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    h2 {
+        font-size: 18px;
+        margin-left: 0%;
+        padding: 15px;
+    }
+}
