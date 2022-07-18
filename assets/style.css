@@ -13,7 +13,7 @@ header h1 {
     top: 1%;
     left: 0%;
     font-size: 40px;
-    background-color: aquamarine;
+    background-color: aqua;
     color: lightslategray;
     float: left;
     margin: auto;
@@ -131,8 +131,7 @@ footer li {
         width: 65%;
     }
     .projects li {
-        margin: 5px;
-        display: block;
+        margin: 4px;
         float: right;
     }
 }
