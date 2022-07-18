@@ -2,7 +2,7 @@
 
 # Description
 
-* Professional Portfolio for Tyler N. Oates; contains the following:
+* Professional Portfolio for Tyler N. Oates, contains the following:
   * About Me
   * Projects
   * Contact Me
@@ -23,7 +23,3 @@
 
 # Author
 * Tyler N. Oates - Email: oatesrotc548@gmail.com
-
-# Screenshot
-
-![Screenshot](assets/Fishermens-Village-dry-beach-Punta-Gorda-FL-1.jpg "Portfolio")
