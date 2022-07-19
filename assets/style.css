@@ -1,13 +1,14 @@
+/* Font-family and margin for the enire body */
 body {
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
 }
-
+/* Sizing for the header and color  */
 header {
     padding: 45px;
     background-color: lightslategray;
 }
-
+/* Positioning of the title of the header to the far left & up with other elements */
 header h1 {
     position: absolute;
     top: 1%;
@@ -18,7 +19,7 @@ header h1 {
     float: left;
     margin: auto;
 }
-
+/* Position and sizing of the navigation links in the top right of the header  */
 header ul li {
     font-size: 20px;
     justify-content: space-between;
@@ -26,35 +27,35 @@ header ul li {
     float: right;
     padding: 5px;
 }
-
+/* Default color of all links  */
 a:link {
     color: aqua;
 }
-
+/* Changes color when link has been visited  */
 a:visited {
     color: blue;
 }
-
+/* Changes color when hovering the curser over link  */
 a:hover {
     color: aliceblue;
 }
-
+/* Changes color when link is currently being used  */
 a:active {
     color: black;
 }
-
+/* Class for the cover photo, adjusts the position, height, and margin  */
 .cover-photo {
     height: auto;
     margin-bottom: 5%;
     position: relative;
     display: inline-block;
 }
-
+/* Adds a border to the main photo  */
 .main-photo {
     width: 100%;
     border: 3px black solid;
 }
-
+/* Adjusting the elements of the link under the main photo  */
 .link {
     border: 3px black solid;
     position: absolute;
@@ -69,13 +70,13 @@ a:active {
     background-color: rgb(229, 227, 241);
     width: 55%;
 }
-
+/* Changes the bottom margin and display values for the about me article  */
 article {
     margin-bottom: 120px;
     display: inline-block;
 
 }
-
+/* Adjusts the syntax for all h2 elements to float left with a right & bottom border  */
 h2 {
     padding: 30px;
     border-right: 3px black solid;
