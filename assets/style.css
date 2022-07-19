@@ -83,7 +83,7 @@ h2 {
     border-bottom: 4px aqua solid;
     float: left;
 }
-
+/* Places the paragraph in a border and floats right  */
 article p {
     background-color: lightslategray;
     color: aqua;
@@ -91,14 +91,14 @@ article p {
     width: 80%;
     float: right;
 }
-
+/* Elemts for all .projects */
 .projects {
     list-style-type: none;
     text-align: center;
     margin: 0;
     padding: 0;
 }
-
+/* Creates a border with padding and margins along with other elements to stlye the links */
 .projects li {
     width: 200px;
     background-color: lightslategray;
@@ -108,13 +108,13 @@ article p {
     display: inline-block;
     font-size: 20px;
 }
-
+/* Element style for footer, centering text */
 footer {
     list-style-type: none;
     text-align: center;
     margin-top: 400px;
 }
-
+/* Creates a border with padding in a inline-block  for all footer links */
 footer li {
     margin: auto;
     width: 100px;
@@ -126,7 +126,7 @@ footer li {
 
 
 
-
+/* Adjust the content to fit a more reponsive screen  */
 @media screen and (max-width: 1000px) {
     article p {
         width: 65%;
@@ -136,7 +136,6 @@ footer li {
         float: right;
     }
 }
-
 @media screen and (max-width: 650px) {
     h2 {
         font-size: 18px;
