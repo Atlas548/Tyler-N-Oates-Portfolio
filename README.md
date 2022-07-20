@@ -22,6 +22,7 @@
 * Mobile platform: Android & IOS
 
 # Screenshot
+![Screenshot](assets/screenshot%20of%20portfolio.PNG "Portfolio")
 
 # Author
 * Tyler N. Oates - Email: oatesrotc548@gmail.com
