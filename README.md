@@ -9,7 +9,7 @@
 
 # Changelog
   * This is the 3rd itieration due to structural errors; as a result the commit logs is very limited.
-  * Optomized index.html but implementing appropriate elements
+  * Optimized index.html by implementing appropriate elements
   * Added corresponding links to intilize on a seperate tab
   * Deployed descriptive comments to index.html & style.css files
 
@@ -20,6 +20,8 @@
 # Requirements
 * MacOS or Windows 10
 * Mobile platform: Android & IOS
+
+# Screenshot
 
 # Author
 * Tyler N. Oates - Email: oatesrotc548@gmail.com

@@ -85,7 +85,7 @@ h2 {
     padding: 30px;
     border-right: 3px black solid;
     border-bottom: 4px aqua solid;
-    width: 15%;
+    width: 200px;
 }
 /* Places the paragraph in a border and floats right  */
 article p {
@@ -94,20 +94,16 @@ article p {
     border: 3px black solid;
     width: 80%;
 }
-/* Elemts for all .projects */
+/* Elements for all .projects */
 .projects {
     list-style-type: none;
-    text-align: center;
-    margin: 0;
+    text-align: left;
+    margin: 100px;
     padding: 0;
 }
 /* Creates a border with padding and margins along with other elements to stlye the links */
 .projects li {
     width: 200px;
-    background-color: rgb(79, 132, 185);
-    border: 4px black solid;
-    padding: 30px;
-    margin: 20px;
     display: inline-block;
     font-size: 20px;
 }
@@ -122,9 +118,6 @@ footer {
 footer li {
     margin: auto;
     width: 100px;
-    border: 3px black solid;
-    background-color: rgb(79, 132, 185);
-    padding: 5px;
     display: inline-block;
 }
 
